@@ -1,3 +1,5 @@
+# Cogito.ServiceFabric.Activities
+
 Ever wanted to run Windows Workflow activities inside Azure Service Fabric? Yeah, I know. Crazy.
 
 But think about it. You could code your Actor's execution logic to be stateless, and support resuming later. For very long term operations. Or for automatically dealing with failover. Actor dies? It just pops up on another box and execution logic resumes where it left off.
@@ -50,3 +52,9 @@ I know Windows Workflow is generally seen as a pariah. But it actually is amazin
 Available in NuGet!
 
 https://www.nuget.org/packages/Cogito.ServiceFabric.Activities/
+
+## Packages
+
+| Package | Version |
+| --- | --- |
+| [Cogito.ServiceFabric.Activities](https://www.nuget.org/packages/Cogito.ServiceFabric.Activities) | [![NuGet](https://img.shields.io/nuget/v/Cogito.ServiceFabric.Activities.svg)](https://www.nuget.org/packages/Cogito.ServiceFabric.Activities) |
